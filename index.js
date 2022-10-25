@@ -1,4 +1,4 @@
-// Simulador de crétos
+// Simulador de créditos
 // Préstamos hasta $500.000
 // 12 meses 70%
 // 24 meses 150%
@@ -12,16 +12,16 @@ function resultados(){
 
 function calculaValor(){
     if(opcion == 1){
-        prestamo = (50000*interes)/12;
+        prestamo = (50000*interes)/mes;
     }
     else if(opcion == 2){
-        prestamo = (100000*interes)/12;
+        prestamo = (100000*interes)/mes;
     }
     else if(opcion == 3){
-        prestamo = (250000*interes)/12;
+        prestamo = (250000*interes)/mes;
     }
     else if(opcion == 4){
-        prestamo = (500000*interes)/12;
+        prestamo = (500000*interes)/mes;
     }
 }
 function intereses(){
